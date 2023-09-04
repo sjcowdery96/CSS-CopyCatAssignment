@@ -1,0 +1,60 @@
+#reference-screenshot{
+    max-width: 100%;
+    max-height: 100%;
+}
+#hamburger-menu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hamburger-section{
+    background-color: black;
+    min-width: 30px;
+    min-height: 5px;
+    margin: 5px;
+}
+
+#logo-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+body{
+    /**background image taken directly from us open homepage**/
+background-image: url(https://photo-assets.usopen.org/images/pics/misc/background-bjk-trophy.png);
+      
+}
+#main-content-scroll{
+    padding: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#content{
+    background-color: whitesmoke;
+}
+#content-text{
+    padding: 1%;
+}
+h3{
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: sans-serif;
+    margin: 1%;
+    padding-left: 2%;
+}
+p{
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: sans-serif;
+    margin:1%;
+    padding-left: 2%
+}
